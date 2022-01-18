@@ -1,0 +1,623 @@
+/* configurações padrões */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/bg-site.webp);
+    font-family: 'PT Serif', serif;
+}
+
+/* Cabeçalho  do Site */
+header#cabecalho{
+    background: salmon;
+}
+
+header nav img#img-logo{
+    margin-right: 100px;
+}
+
+header nav button i#bar-menu{
+    color: white;
+}
+header nav div#menu ul li.nav-link.nav-menu{
+    margin-right: 50px;
+}
+header nav div#menu ul li a, a.btn-entrar{
+    font-size: 12px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold
+} 
+
+header nav a.btn-entrar{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+header nav a.btn-entrar:hover{
+    background: #fe9f8c;
+}
+
+header nav div#menu-icons ul li a{
+    color: white;
+}
+
+header nav div#menu-icons ul li a i{
+    font-size: 16px;
+}
+
+/* Conteudo principal do site */
+    main div#caixa-conteudo{    
+        text-align: center;
+        padding: 150px 70px 0 70px;
+        background: url(../img/bg-caixa-conteudo-inf.png) no-repeat bottom left,
+                    url(../img/bg-caixa-conteudo-sup.png) no-repeat top right;
+    }
+    main div#caixa-conteudo ul#lista-botoes{
+        list-style: none;
+        margin-top: 40px;
+    }
+
+    main div#caixa-conteudo ul#lista-botoes li{
+        display: inline-flex;
+    }
+
+    main div#caixa-conteudo ul#lista-botoes li a.link-btn,
+    section#mais-vendidos div.caixa-mais-vendidos a.btn-mais-vendidos,
+    section#servicos div.conteudo-servicos a.btn-mais-vendidos{
+        background: #7a7a7a;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+
+    main div#caixa-conteudo ul#lista-botoes li a.leia-mais{
+        color: #7a7a7a;
+        font-weight: bold;
+        margin-left: 30px;
+        font-size: 0.8em;
+    }
+    main div img#img-conteudo{
+        width: 650px;
+    } 
+    
+    main div#caixa-conteudo h1,
+    section#mais-vendidos h1,
+    section#servicos h1{
+        color: #444748;
+        font-size: 3em;
+        font-weight: 700;
+    }
+
+    section#servicos div.alinha-conteudo{
+        text-align: center;
+    }
+
+    main div#caixa-conteudo h4{
+        font-weight: 700;
+    }
+    main div#caixa-conteudo h4, main div#caixa-conteudo p, section#servicos div p{
+        margin-top: 10px;
+        color: #835630
+    }
+
+    main div#faixa-marrom{
+        width: 100%;
+        background: #774c29;
+        padding: 30px 0 30px 0;
+        text-align: center;
+        color: white;
+    }
+
+/* Seção Produtos mais vendido */
+    section#mais-vendidos{
+        background: url(../img/bg-mais-vendidos-sup-dir.png) no-repeat top left ,
+                    url(../img/bg-mais-vendidos-sup-esq.png) no-repeat top right,
+                    url(../img/bg-mais-vendidos-inf-dir.png) no-repeat bottom right,
+                    url(../img/bg-mais-vendidos-inf-esq.png) no-repeat bottom left;
+
+        text-align: center;
+        padding: 80px 0 80px 0;
+    }
+
+    section#mais-vendidos h5,
+    section#servicos h5{
+        color: #835630;
+        font-weight: 600;
+        margin-bottom: 60px;
+    }
+    section#mais-vendidos div.caixa-mais-vendidos{
+        width: 16rem;   
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    section#mais-vendidos div.card-body h6.titulo-card{
+        color: #444748;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    section#mais-vendidos div.card-body p{
+        font-size: 0.9em;
+        color: #835630;
+    }
+
+    /* Seção Serviços */
+    section#servicos {
+        background: url(../img/bg-servicos.png) no-repeat top left,
+                    url(../img/bg-servicos-inf.png) no-repeat bottom right;
+        margin: 150px 0 150px 0;
+    }
+    section#servicos div.box-img{
+        margin: 0 auto;
+        padding-top: 10px 40px 10px 40px ;
+    }
+    section#servicos img#img-servicos{
+        border-left: 10px solid salmon;
+        border-bottom: 18px solid salmon;
+    }
+
+    section#servicos div#faixa-promocao{
+        width: 100%;
+        margin: 100px 0 100px 0;
+    }
+        section#servicos div#faixa-promocao div#bg-promocao-amarela{
+
+            background: url(../img/bg-mais-vendidos-sup-esq.png) no-repeat center left,
+                        url(../img/bg-mais-vendidos-sup-dir.png) no-repeat center right,
+                        url(../img/bg-amarelo.png);
+            text-align: center;
+            width: 50%;
+            padding-top: 40px;
+        }
+
+        section#servicos div#faixa-promocao div#bg-promocao-img{
+            width: 50%;
+        }
+        section#servicos div#faixa-promocao div#bg-promocao-amarela h1{
+            color: #3e3e3e;
+            font-size: 8em;
+            letter-spacing: -8px;
+            
+        }
+    
+        section#servicos div#faixa-promocao div#bg-promocao-amarela h3{
+            background:#3e3e3e;
+            color: white;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 1.3em;
+        }
+        section#servicos div#faixa-promocao div#bg-promocao-amarela p{
+            color: #3e3e3e;
+            font-size: 1.8em;
+            
+        }
+
+        section#servicos div.caixa-servicos{
+            margin-bottom: 150px;
+            background: url(../img/bg-folhas4.png) no-repeat top left;
+
+        }
+        section#servicos div.conteudo-servicos{
+            padding: 120px 80px 0 0;
+            background: url(../img/bg-folhas.png) no-repeat bottom right;
+        }
+
+        section#servicos div.conteudo-servicos h1{
+            margin-bottom: 20px;
+        }
+        section#servicos div.caixa-servicos img#servicos-img{
+            height: 500px;
+            margin: 0 20px 0 20px;
+        }
+
+/* Section News Letter */
+section#news-letter{
+    padding: 0 80px 0 80px;
+    margin-bottom: 60px;
+}
+section#news-letter div#grupo-newsletter{
+    text-align: center;
+}
+section#news-letter form a.btn-subscribe{
+    background: salmon;
+    color: white;
+    margin-left: 45%;
+    border-radius:20px;
+    padding:  5px 15px 5px 15px;
+}
+
+/* footer - rodapé*/
+footer#rodape{
+    background: #3e3e3e;
+    padding: 80px 0 80px 0;
+}
+footer#rodape h4,footer#rodape ul li ,footer#rodape ul li a{
+    color: white;
+}
+footer#rodape h4{
+    font-weight: 700;
+}
+footer#rodape ul{
+    list-style: none;
+}
+footer#rodape ul li a{
+    text-decoration: none;
+}
+footer#rodape ul li h6{
+    font-weight: bold;
+}
+footer#rodape ul li a:hover{
+    color: salmon;
+}
+
+footer#rodape ul li a img{
+    height: 45px
+}
+
+
+ /* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) { 
+    header nav div#menu ul.navbar-nav{
+        text-align: center;
+    } 
+    header nav div#menu ul li.nav-link.nav-menu{
+        margin-right: 0;
+    }
+    main div#caixa-conteudo{    
+        padding: 80px 10px 0 10px;
+        background-image: none;
+    }
+
+    main div#caixa-conteudo h1,
+    section#mais-vendidos h1,
+    section#servicos h1{
+        font-size: 2em;
+    }
+    main div img#img-conteudo{
+        width: 300px;
+        height: 300px;
+    } 
+    main div#caixa-conteudo h4{
+        font-size: 0.8em;
+    }
+    
+    main div#caixa-conteudo p, section#servicos div p{
+        font-size: 0.7em;
+    }
+    main div#caixa-conteudo ul#lista-botoes{
+        list-style: none;
+        margin-top: 10px;
+    }
+    main div#faixa-marrom h3{
+        font-size: 1.2em;
+    }
+    main div#faixa-marrom p{
+        font-size: 0.7em;
+    }
+    section#mais-vendidos div.flex-mais-vendidos{
+        display: flex;
+        flex-flow: wrap;
+        padding: 0 20px 0 20px;
+    }
+    section#mais-vendidos div.caixa-mais-vendidos{
+        margin-bottom: 20px;
+    }
+
+    section#mais-vendidos div.card-body p {
+        font-size: 0.6em;
+    }
+    section#mais-vendidos div.card-body h6.titulo-card {
+        font-size: 1em;
+    }
+    main div#caixa-conteudo ul#lista-botoes li a.link-btn, 
+    section#mais-vendidos div.caixa-mais-vendidos a.btn-mais-vendidos, 
+    section#servicos div.conteudo-servicos a.btn-mais-vendidos {
+        font-size: 0.5em;
+    }
+    section#servicos {
+        margin: 50px 0 50px 0;
+    }
+    section#servicos div#faixa-promocao {
+        margin: 40px 0 40px 0;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela {
+        padding-top: 10px;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela h3{
+        font-size: 0.7em;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela h1{
+        font-size: 2.5em;
+        letter-spacing: -2px;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela p {
+        font-size: 0.8em;
+    }
+
+    section#servicos div.caixa-servicos {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        background: none        ;
+    }
+    section#servicos div.caixa-servicos.reverse {
+        display: flex;
+        flex-direction: column-reverse;    ;
+    }
+
+    section#servicos div.conteudo-servicos {
+        padding: 4px 40px 0 0;
+        background: none;
+        text-align: center;
+    }
+
+    section#servicos div.caixa-servicos img#servicos-img{
+        margin-top: 40px;
+        height: 400px;
+    }
+
+    section#servicos div.conteudo-servicos a.btn-mais-vendidos:hover{
+        background: #7a7a7a;
+    }
+    section#news-letter form a.btn-subscribe {
+        margin-left: 35%;
+    }
+
+    footer#rodape div#rodape-flex{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div.redes-sociais{
+        margin-left: -80px;
+    }
+    
+}
+/*  Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    header nav div#menu ul.navbar-nav{
+        text-align: center;
+    } 
+    header nav div#menu ul li.nav-link.nav-menu{
+        margin-right: 0;
+    }
+    main div#caixa-conteudo{    
+        padding: 80px 10px 0 10px;
+        background-image: none;
+    }
+
+    main div#caixa-conteudo h1,
+    section#mais-vendidos h1,
+    section#servicos h1{
+        font-size: 2em;
+    }
+    main div img#img-conteudo{
+        width: 300px;
+        height: 300px;
+    } 
+    main div#caixa-conteudo h4{
+        font-size: 0.8em;
+    }
+    
+    main div#caixa-conteudo p, section#servicos div p{
+        font-size: 0.7em;
+    }
+    main div#caixa-conteudo ul#lista-botoes{
+        list-style: none;
+        margin-top: 10px;
+    }
+    main div#faixa-marrom h3{
+        font-size: 1.2em;
+    }
+    main div#faixa-marrom p{
+        font-size: 0.7em;
+    }
+    section#mais-vendidos div.flex-mais-vendidos{
+        display: flex;
+        flex-flow: wrap;
+        padding: 0 10px 0 10px;
+    }
+    section#mais-vendidos div.caixa-mais-vendidos{
+        margin-bottom: 20px;
+    }
+
+    section#mais-vendidos div.card-body p {
+        font-size: 0.6em;
+    }
+    section#mais-vendidos div.card-body h6.titulo-card {
+        font-size: 1em;
+    }
+    main div#caixa-conteudo ul#lista-botoes li a.link-btn, 
+    section#mais-vendidos div.caixa-mais-vendidos a.btn-mais-vendidos, 
+    section#servicos div.conteudo-servicos a.btn-mais-vendidos {
+        font-size: 0.5em;
+    }
+    section#servicos {
+        margin: 50px 0 50px 0;
+    }
+    section#servicos div#faixa-promocao {
+        margin: 40px 0 40px 0;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela {
+        padding-top: 10px;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela h3{
+        font-size: 0.7em;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela h1{
+        font-size: 2.5em;
+        letter-spacing: -2px;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela p {
+        font-size: 0.8em;
+    }
+
+    section#servicos div.caixa-servicos {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        background: none        ;
+    }
+    section#servicos div.caixa-servicos.reverse {
+        display: flex;
+        flex-direction: column-reverse;    ;
+    }
+
+    section#servicos div.conteudo-servicos {
+        padding: 4px 40px 0 0;
+        background: none;
+        text-align: center;
+    }
+
+    section#servicos div.caixa-servicos img#servicos-img{
+        margin-top: 40px;
+        height: 400px;
+    }
+
+    section#servicos div.conteudo-servicos a.btn-mais-vendidos:hover{
+        background: #7a7a7a;
+    }
+    section#news-letter form a.btn-subscribe {
+        margin-left: 35%;
+    }
+
+    footer#rodape div#rodape-flex{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div.redes-sociais{
+        margin-left: -80px;
+    }
+
+ }
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header nav div#menu ul.navbar-nav{
+        text-align: center;
+    } 
+    header nav div#menu ul li.nav-link.nav-menu{
+        margin-right: 0;
+    }
+    main div#caixa-conteudo{    
+        padding: 80px 10px 0 10px;
+        background-image: none;
+    }
+
+    main div#caixa-conteudo h1,
+    section#mais-vendidos h1,
+    section#servicos h1{
+        font-size: 2.5em;
+    }
+    main div img#img-conteudo{
+        width: 500px;
+        height: 500px;
+    } 
+    main div#caixa-conteudo h4{
+        font-size: 0.9em;
+    }
+    
+    main div#caixa-conteudo p, section#servicos div p{
+        font-size: 0.7em;
+    }
+    main div#caixa-conteudo ul#lista-botoes{
+        list-style: none;
+        margin-top: 10px;
+    }
+    main div#faixa-marrom h3{
+        font-size: 1.5em;
+    }
+    main div#faixa-marrom p{
+        font-size: 0.8em;
+    }
+    section#mais-vendidos div.flex-mais-vendidos{
+        display: flex;
+        flex-direction: row ;
+
+    }
+    section#mais-vendidos div.caixa-mais-vendidos{
+        margin: 0 5px 20px 5px;
+
+    }
+    section#servicos {
+        margin: 50px 0 50px 0;
+    }
+    section#servicos div#faixa-promocao {
+        margin: 40px 0 40px 0;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela {
+        padding-top: 10px;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela h3{
+        font-size: 0.7em;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela h1{
+        font-size: 2.5em;
+        letter-spacing: -2px;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela p {
+        font-size: 0.8em;
+    }
+
+    section#servicos div.caixa-servicos {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        background: none        ;
+    }
+    section#servicos div.caixa-servicos.reverse {
+        display: flex;
+        flex-direction: column-reverse;    ;
+    }
+
+    section#servicos div.conteudo-servicos {
+        padding: 4px 40px 0 0;
+        background: none;
+        text-align: center;
+    }
+
+    section#servicos div.caixa-servicos img#servicos-img{
+        margin-top: 40px;
+        
+    }
+
+    section#servicos div.conteudo-servicos a.btn-mais-vendidos:hover{
+        background: #7a7a7a;
+    }
+    section#news-letter form a.btn-subscribe {
+        margin-left: 35%;
+    }
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    section#mais-vendidos div.caixa-mais-vendidos{
+        margin: 0 5px 20px 5px;
+
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela h3{
+        font-size: 1.5em;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela h1{
+        font-size: 6em;
+        letter-spacing: -2px;
+    }
+    section#servicos div#faixa-promocao div#bg-promocao-amarela p {
+        font-size: 1.5em;
+    }
+
+
+    section#servicos div.conteudo-servicos a.btn-mais-vendidos:hover{
+        background: #7a7a7a;
+    }
+    section#news-letter form a.btn-subscribe {
+        margin-left: 35%;
+    }
+ }
