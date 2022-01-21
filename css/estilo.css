@@ -154,10 +154,10 @@ header nav div#menu-icons ul li a i{
         margin: 0 auto;
         padding-top: 10px 40px 10px 40px ;
     }
-    section#servicos img#img-servicos{
+    /* section#servicos img#img-servicos{
         border-left: 10px solid salmon;
         border-bottom: 18px solid salmon;
-    }
+    } */
 
     section#servicos div#faixa-promocao{
         width: 100%;
@@ -175,6 +175,7 @@ header nav div#menu-icons ul li a i{
 
         section#servicos div#faixa-promocao div#bg-promocao-img{
             width: 50%;
+
         }
         section#servicos div#faixa-promocao div#bg-promocao-amarela h1{
             color: #3e3e3e;
@@ -226,7 +227,7 @@ section#news-letter div#grupo-newsletter{
 section#news-letter form a.btn-subscribe{
     background: salmon;
     color: white;
-    margin-left: 45%;
+    width: 100%;
     border-radius:20px;
     padding:  5px 15px 5px 15px;
 }
@@ -258,6 +259,9 @@ footer#rodape ul li a:hover{
 footer#rodape ul li a img{
     height: 45px
 }
+div.redes-sociais ul li h3{
+    font-size: 1em;
+}
 
 
  /* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
@@ -269,18 +273,18 @@ footer#rodape ul li a img{
         margin-right: 0;
     }
     main div#caixa-conteudo{    
-        padding: 80px 10px 0 10px;
+        padding: 20px 5px 0 5px;
         background-image: none;
     }
 
     main div#caixa-conteudo h1,
     section#mais-vendidos h1,
     section#servicos h1{
-        font-size: 2em;
+        font-size: 1.5em;
     }
     main div img#img-conteudo{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     } 
     main div#caixa-conteudo h4{
         font-size: 0.8em;
@@ -293,19 +297,24 @@ footer#rodape ul li a img{
         list-style: none;
         margin-top: 10px;
     }
+    main div#faixa-marrom {
+       margin-bottom: 20px; 
+    }
     main div#faixa-marrom h3{
         font-size: 1.2em;
     }
     main div#faixa-marrom p{
         font-size: 0.7em;
     }
-    section#mais-vendidos div.flex-mais-vendidos{
-        display: flex;
-        flex-flow: wrap;
-        padding: 0 20px 0 20px;
+    section#mais-vendidos{
+        padding: 0 10px 0 10px ;
+    }
+    section#mais-vendidos h5, section#servicos h5{
+        font-size: 1em;
     }
     section#mais-vendidos div.caixa-mais-vendidos{
         margin-bottom: 20px;
+        width: 50%;
     }
 
     section#mais-vendidos div.card-body p {
@@ -326,17 +335,22 @@ footer#rodape ul li a img{
         margin: 40px 0 40px 0;
     }
     section#servicos div#faixa-promocao div#bg-promocao-amarela {
-        padding-top: 10px;
+        padding-top: 7px;
+        background:  url(../img/bg-amarelo.png);
     }
     section#servicos div#faixa-promocao div#bg-promocao-amarela h3{
         font-size: 0.7em;
     }
     section#servicos div#faixa-promocao div#bg-promocao-amarela h1{
-        font-size: 2.5em;
+        font-size: 2em;
         letter-spacing: -2px;
     }
     section#servicos div#faixa-promocao div#bg-promocao-amarela p {
         font-size: 0.8em;
+        font-weight: bold;
+    }
+    section#servicos div#bg-promocao-img img{
+        height: 140px;
     }
 
     section#servicos div.caixa-servicos {
@@ -358,14 +372,19 @@ footer#rodape ul li a img{
 
     section#servicos div.caixa-servicos img#servicos-img{
         margin-top: 40px;
-        height: 400px;
+        height: 300px;
     }
+
+    section#news-letter div#grupo-newsletter h1{
+        font-size: 1.5em;
+    }
+
 
     section#servicos div.conteudo-servicos a.btn-mais-vendidos:hover{
         background: #7a7a7a;
     }
     section#news-letter form a.btn-subscribe {
-        margin-left: 35%;
+        width: 100%;
     }
 
     footer#rodape div#rodape-flex{
@@ -373,8 +392,10 @@ footer#rodape ul li a img{
         flex-direction: column;
         text-align: center;
     }
-    div.redes-sociais{
-        margin-left: -80px;
+
+
+    div.redes-sociais ul li h3{
+        font-size: 1em;
     }
     
 }
@@ -405,7 +426,7 @@ footer#rodape ul li a img{
     }
     
     main div#caixa-conteudo p, section#servicos div p{
-        font-size: 0.7em;
+        font-size: 3.5em;
     }
     main div#caixa-conteudo ul#lista-botoes{
         list-style: none;
@@ -486,14 +507,13 @@ footer#rodape ul li a img{
         margin-left: 35%;
     }
 
+
     footer#rodape div#rodape-flex{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    div.redes-sociais{
-        margin-left: -80px;
-    }
+
 
  }
 
