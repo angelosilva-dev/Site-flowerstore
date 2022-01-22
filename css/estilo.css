@@ -130,7 +130,7 @@ header nav div#menu-icons ul li a i{
         margin-bottom: 60px;
     }
     section#mais-vendidos div.caixa-mais-vendidos{
-        width: 16rem;   
+        width: 16rem;  
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
@@ -154,10 +154,6 @@ header nav div#menu-icons ul li a i{
         margin: 0 auto;
         padding-top: 10px 40px 10px 40px ;
     }
-    /* section#servicos img#img-servicos{
-        border-left: 10px solid salmon;
-        border-bottom: 18px solid salmon;
-    } */
 
     section#servicos div#faixa-promocao{
         width: 100%;
@@ -272,6 +268,9 @@ div.redes-sociais ul li h3{
     header nav div#menu ul li.nav-link.nav-menu{
         margin-right: 0;
     }
+    header nav img#img-logo{
+        margin-right: 50px;
+    }
     main div#caixa-conteudo{    
         padding: 20px 5px 0 5px;
         background-image: none;
@@ -371,6 +370,11 @@ div.redes-sociais ul li h3{
         text-align: center;
     }
 
+    section#mais-vendidos div.flex-mais-vendidos{
+        display: flex;
+        flex-flow: wrap;
+        padding: 0 10px 0 10px;
+    } 
     section#servicos div.caixa-servicos img#servicos-img{
         margin-top: 40px;
         height: 300px;
@@ -447,7 +451,7 @@ div.redes-sociais ul li h3{
         display: flex;
         flex-flow: wrap;
         padding: 0 10px 0 10px;
-    }
+    } 
     section#mais-vendidos div.caixa-mais-vendidos{
         margin-bottom: 20px;
     }
@@ -561,11 +565,11 @@ div.redes-sociais ul li h3{
     main div#faixa-marrom p{
         font-size: 0.8em;
     }
-    section#mais-vendidos div.flex-mais-vendidos{
+    /* section#mais-vendidos div.flex-mais-vendidos{
         display: flex;
         flex-direction: row ;
 
-    }
+    } */
     section#mais-vendidos div.caixa-mais-vendidos{
         margin: 0 5px 20px 5px;
 
