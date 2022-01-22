@@ -333,6 +333,7 @@ div.redes-sociais ul li h3{
     }
     section#servicos div#faixa-promocao {
         margin: 40px 0 40px 0;
+        display: none;
     }
     section#servicos div#faixa-promocao div#bg-promocao-amarela {
         padding-top: 7px;
@@ -392,8 +393,12 @@ div.redes-sociais ul li h3{
         flex-direction: column;
         text-align: center;
     }
-
-
+    div.redes-sociais {
+        margin-top: 30px;
+    }
+    div.redes-sociais ul li {
+        display: inline;
+    }
     div.redes-sociais ul li h3{
         font-size: 1em;
     }
