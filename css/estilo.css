@@ -313,7 +313,7 @@ div.redes-sociais ul li h3{
     }
     section#mais-vendidos div.caixa-mais-vendidos{
         margin-bottom: 20px;
-        width: 50%;
+        width: 10rem;  
     }
 
     section#mais-vendidos div.card-body p {
@@ -513,7 +513,7 @@ div.redes-sociais ul li h3{
         background: #7a7a7a;
     }
     section#news-letter form a.btn-subscribe {
-        margin-left: 35%;
+        width: 100%;
     }
 
 
@@ -553,7 +553,7 @@ div.redes-sociais ul li h3{
     }
     
     main div#caixa-conteudo p, section#servicos div p{
-        font-size: 0.7em;
+        font-size: 1em;
     }
     main div#caixa-conteudo ul#lista-botoes{
         list-style: none;
@@ -591,7 +591,8 @@ div.redes-sociais ul li h3{
         letter-spacing: -2px;
     }
     section#servicos div#faixa-promocao div#bg-promocao-amarela p {
-        font-size: 0.8em;
+        font-size: 1.5em;
+        font-weight: bold;
     }
 
     section#servicos div.caixa-servicos {
@@ -620,7 +621,7 @@ div.redes-sociais ul li h3{
         background: #7a7a7a;
     }
     section#news-letter form a.btn-subscribe {
-        margin-left: 35%;
+        width: 100%;
     }
 }
 
@@ -647,6 +648,6 @@ div.redes-sociais ul li h3{
         background: #7a7a7a;
     }
     section#news-letter form a.btn-subscribe {
-        margin-left: 35%;
+        width: 100%;
     }
  }
